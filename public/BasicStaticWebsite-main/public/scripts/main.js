@@ -20,7 +20,7 @@ class Main {
     displayCount() {
         this.incrementCount();
         // Update count in div id count
-        document.getElementById('count').innerHTML = 'You have visited this page ' + localStorage.getItem(this.pageViewsKey)  + ' times.'
+        document.getElementById('count').innerHTML = 'nothing\'s changed yet you\'ve visted this site ' + localStorage.getItem(this.pageViewsKey)  + ' times'
     }
 }
 
